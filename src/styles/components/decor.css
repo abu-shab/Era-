@@ -1,0 +1,156 @@
+.logo {
+  width: 100%;
+  height: 100%;
+  color: var(--_colors---base-1000--primary);
+  object-fit: contain;
+}
+
+.logo.b {
+  object-position: 50% 100%;
+}
+
+.logo_symbol {
+  z-index: 1;
+  aspect-ratio: 1;
+  position: relative;
+}
+
+.logo_symbol.header {
+  width: var(--_units---u-48);
+  height: var(--_units---u-48);
+}
+
+.frame_lt {
+  z-index: 1;
+  width: var(--24px);
+  height: var(--24px);
+  position: absolute;
+  inset: 0% auto auto 0%;
+}
+
+.frame_lt:where(.decor-med) {
+  width: var(--16px);
+  height: var(--16px);
+}
+
+.decor {
+  color: var(--_colors---base-1000--line);
+  position: absolute;
+  inset: 0%;
+}
+
+.frame_rt {
+  z-index: 1;
+  width: var(--24px);
+  height: var(--24px);
+  position: absolute;
+  inset: 0% 0% auto auto;
+}
+
+.frame_rt:where(.decor-med) {
+  width: var(--16px);
+  height: var(--16px);
+}
+
+.frame_rb {
+  z-index: 1;
+  width: var(--24px);
+  height: var(--24px);
+  position: absolute;
+  inset: auto 0% 0% auto;
+}
+
+.frame_rb:where(.decor-med) {
+  width: var(--16px);
+  height: var(--16px);
+}
+
+.frame_lb {
+  z-index: 1;
+  width: var(--24px);
+  height: var(--24px);
+  position: absolute;
+  inset: auto auto 0% 0%;
+}
+
+.frame_lb:where(.decor-med) {
+  width: var(--16px);
+  height: var(--16px);
+}
+
+.frame_t-lr {
+  left: var(--24px);
+  right: var(--24px);
+  z-index: 1;
+  height: var(--24px);
+  bottom: auto;
+  top: calc(var(--12px) * -1);
+  position: absolute;
+}
+
+.frame_t-lr:where(.decor-med) {
+  left: var(--16px);
+  right: var(--16px);
+  height: var(--16px);
+  top: calc(var(--8px) * -1);
+}
+
+.frame_b-lr {
+  left: var(--24px);
+  top: auto;
+  right: var(--24px);
+  z-index: 1;
+  height: var(--24px);
+  bottom: calc(var(--12px) * -1);
+  position: absolute;
+}
+
+.frame_b-lr:where(.decor-med) {
+  left: var(--16px);
+  right: var(--16px);
+  height: var(--16px);
+  bottom: calc(var(--8px) * -1);
+}
+
+.frame_r-tb {
+  left: auto;
+  top: var(--24px);
+  bottom: var(--24px);
+  z-index: 1;
+  width: var(--24px);
+  right: calc(var(--12px) * -1);
+  position: absolute;
+}
+
+.frame_r-tb:where(.decor-med) {
+  top: var(--16px);
+  bottom: var(--16px);
+  width: var(--16px);
+  right: calc(var(--8px) * -1);
+}
+
+.frame_l-tb {
+  top: var(--24px);
+  right: auto;
+  bottom: var(--24px);
+  z-index: 1;
+  width: var(--24px);
+  left: calc(var(--12px) * -1);
+  position: absolute;
+}
+
+.frame_l-tb:where(.decor-med) {
+  top: var(--16px);
+  bottom: var(--16px);
+  width: var(--16px);
+  left: calc(var(--8px) * -1);
+}
+
+.card_decor {
+  left: var(--_units---u-8);
+  top: var(--_units---u-8);
+  right: var(--_units---u-8);
+  bottom: var(--_units---u-8);
+  z-index: 0;
+  position: absolute;
+}

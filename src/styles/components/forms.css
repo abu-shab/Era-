@@ -1,0 +1,106 @@
+.input_field {
+  height: var(--_units---u-32);
+  margin-bottom: var(--_units---u-0);
+  padding: var(--_units---u-8) var(--_units---u-64);
+  border-style: none none solid;
+  border-width: 0 0 1px;
+  border-color: var(--_colors---other--transparent)
+    var(--_colors---other--transparent) var(--_colors---base-1000--line);
+  background-color: var(--_colors---other--transparent);
+  text-align: center;
+}
+
+.input_field:focus {
+  border-style: none none solid;
+  border-width: 0 0 1px;
+  border-color: var(--_colors---other--transparent)
+    var(--_colors---other--transparent) var(--_colors---base-1000--primary);
+}
+
+.input_field.area {
+  width: 100%;
+  height: var(--112px);
+  max-height: var(--112px);
+  max-width: 100%;
+  min-height: var(--112px);
+  min-width: 100%;
+}
+
+.form_block {
+  flex-flow: row;
+  justify-content: space-between;
+  height: 100%;
+  display: flex;
+}
+
+.form_success {
+  height: 100%;
+  padding: var(--_units---u-0);
+  background-color: var(--_colors---other--transparent);
+  text-align: left;
+}
+
+.form_error {
+  margin-top: var(--_units---u-0);
+  padding: var(--_units---u-8) var(--_units---u-64);
+  background-color: var(--_colors---additional--error);
+  position: absolute;
+  inset: auto 0% 0%;
+}
+
+.input {
+  position: relative;
+}
+
+.input_label {
+  left: 0%;
+  top: var(--_units---u-8);
+  position: absolute;
+  bottom: auto;
+  right: auto;
+}
+
+.form_block_b {
+  grid-column-gap: var(--_units---u-32);
+  grid-row-gap: var(--_units---u-32);
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+
+.form_block_legal {
+  width: calc(var(--16px) * 10);
+}
+
+.form_success_c {
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  display: flex;
+  position: relative;
+}
+
+.form_success_social {
+  position: absolute;
+  left: 0%;
+}
+
+.form_success_desc {
+  width: calc(var(--32px) * 10);
+  flex-flow: column;
+  flex: 1;
+  justify-content: flex-end;
+  display: flex;
+}
+
+.form_success_title {
+  width: calc(var(--20px) * 10);
+  flex: 1;
+}
+
+.form_success_a {
+  margin-left: calc(var(--24px) * -1);
+  margin-top: calc(var(--44px) * -1);
+  transform: rotate(-12deg);
+}

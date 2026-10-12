@@ -1,0 +1,56 @@
+.floating-tips {
+  z-index: 11000;
+  pointer-events: none;
+  display: block;
+  position: fixed;
+  inset: 0%;
+}
+
+.floating-tips_list {
+  flex-flow: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: flex;
+  position: absolute;
+  inset: 0%;
+}
+
+.floating-tip {
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+  grid-template-rows: auto auto;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-columns: 1fr;
+  justify-content: flex-start;
+  align-items: center;
+  position: absolute;
+  inset: 0% auto auto 0%;
+}
+
+.floating-tip-card {
+  z-index: 0;
+  padding-top: var(--_units---u-24);
+  padding-right: var(--_units---u-24);
+  padding-bottom: var(--_units---u-24);
+  padding-left: var(--_units---u-24);
+  aspect-ratio: 17/21;
+  border-top-left-radius: var(--_units---u-4);
+  border-top-right-radius: var(--_units---u-4);
+  border-bottom-left-radius: var(--_units---u-4);
+  border-bottom-right-radius: var(--_units---u-4);
+  background-color: var(--_colors---base-0--primary);
+  width: calc(
+    (var(--_special-units---1-cell-h) * 2) + var(--_special-units---grid-gap) +
+      var(--_special-units---grid-gap)
+  );
+  flex-flow: column;
+  justify-content: space-between;
+  display: flex;
+  position: relative;
+}
+
+.floating-tip-card_t,
+.floating-tip-card_b {
+  z-index: 1;
+  position: relative;
+}

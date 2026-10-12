@@ -1,0 +1,85 @@
+.arch-w {
+  top: var(--_units---u-0);
+  position: sticky;
+}
+
+.arch-s {
+  z-index: 1;
+  aspect-ratio: 144/168;
+  pointer-events: none;
+  flex-flow: column;
+  justify-content: space-between;
+  display: flex;
+  position: relative;
+}
+
+.arch-intro-s {
+  top: var(--_units---u-0);
+  z-index: 1;
+  height: var(--_special-units---100vh);
+  pointer-events: none;
+  margin-bottom: calc(var(--_special-units---100vh) * -1);
+  position: sticky;
+}
+
+.arch-intro-s_bg_l {
+  background-color: var(--_colors---base-0--primary);
+  position: absolute;
+  inset: -1% calc(50% - 1px) 0% 0%;
+}
+
+.arch-scroll-area {
+  position: relative;
+}
+
+.arch-intro-s_bg_r {
+  background-color: var(--_colors---base-0--primary);
+  position: absolute;
+  inset: -1% 0% 0% 50%;
+}
+
+.arch-s_t {
+  pointer-events: auto;
+}
+
+.arch-s_desc {
+  grid-area: 1/4/2/8;
+}
+
+.arch-s_b {
+  pointer-events: auto;
+}
+
+.arch-s_quote {
+  grid-area: 1/2/2/6;
+}
+
+.arch-s_author,
+.quote-s_ico {
+  grid-area: 1/2/2/5;
+}
+
+.arch-s_btn {
+  flex-flow: column;
+  grid-area: 1/7/2/9;
+  justify-content: center;
+  align-self: end;
+  align-items: center;
+  display: flex;
+}
+
+.arch_themes {
+  pointer-events: none;
+  flex-flow: column;
+  display: flex;
+  position: absolute;
+  inset: 0%;
+}
+
+.arch_themes_color {
+  flex: 1;
+}
+
+.arch_themes_light {
+  height: calc(var(--_special-units---100vh) * 1.5);
+}

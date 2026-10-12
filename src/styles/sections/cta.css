@@ -1,0 +1,23 @@
+.cta-s {
+  z-index: 1;
+  aspect-ratio: 144/168;
+  pointer-events: none;
+  position: relative;
+}
+
+.cta-s_desc {
+  pointer-events: auto;
+  grid-area: 1/4/2/8;
+}
+
+.cta-s_title {
+  pointer-events: auto;
+  grid-area: 1/3/2/9;
+}
+
+.cta-s_title_btn {
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}

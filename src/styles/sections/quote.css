@@ -1,0 +1,35 @@
+.quote-w {
+  position: relative;
+}
+
+.quote-s {
+  z-index: 1;
+  position: absolute;
+  inset: auto 0% 0%;
+}
+
+.quote-w_bg {
+  z-index: 0;
+  margin-left: calc(var(--_special-units---offset-l) * -1);
+  margin-right: calc(var(--_special-units---offset-r) * -1);
+  position: relative;
+}
+
+.quote-s_c {
+  grid-area: 1/6/2/10;
+}
+
+.quote-s_author {
+  grid-area: 1/1/2/4;
+}
+
+.quote-w_themes_color-1,
+.quote-w_themes_light-1 {
+  flex: 1;
+  height: 100%;
+}
+
+.quote-w_themes_color-2 {
+  flex: 1;
+  height: 30rem;
+}

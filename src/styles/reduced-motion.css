@@ -1,0 +1,5 @@
+@media (prefers-reduced-motion: reduce) {
+  [data-marquee-css='track'] {
+    animation: none;
+  }
+}

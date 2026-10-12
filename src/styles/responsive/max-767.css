@@ -1,0 +1,8 @@
+@media screen and (max-width: 767px) {
+  .hero-scroll-area {
+      height: calc(
+        (var(--_special-units---100vh) * 2) +
+          (50rem + var(--_special-units---100vh))
+      );
+    }
+}

@@ -1,0 +1,49 @@
+.other-w {
+  position: relative;
+}
+
+.other-s {
+  z-index: 1;
+  grid-area: 1/3/2/9;
+  position: relative;
+}
+
+.other-s_cms {
+  grid-area: 1/3/2/9;
+}
+
+.other-card {
+  cursor: pointer;
+}
+
+.other-card_name {
+  justify-content: center;
+  align-items: flex-start;
+  display: flex;
+}
+
+.other-card_ico {
+  top: var(--_units---u-4);
+  bottom: auto;
+  right: auto;
+  left: calc(100% + var(--_units---u-4));
+  position: absolute;
+}
+
+.other-card_info_desc {
+  flex-flow: column;
+  grid-area: 1/2/2/6;
+  justify-content: flex-start;
+  align-items: center;
+  display: flex;
+}
+
+.other-card_info_logo {
+  width: var(--192px);
+  aspect-ratio: 3/2;
+}
+
+.other-card_name_label,
+.cta-w {
+  position: relative;
+}

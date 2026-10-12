@@ -1,0 +1,30 @@
+.marquee {
+  z-index: 0;
+  pointer-events: none;
+  justify-content: flex-start;
+  align-items: center;
+  display: flex;
+  position: relative;
+  overflow: clip;
+}
+
+.marquee_track,
+.marquee_list {
+  flex: none;
+  justify-content: flex-start;
+  align-items: center;
+  display: flex;
+}
+
+.marquee_list_item {
+  flex: none;
+}
+
+.clouds.is-33 {
+  height: calc(var(--60px) * 10);
+}
+
+.clouds.is-02,
+.clouds.is-47 {
+  height: calc(var(--48px) * 10);
+}
