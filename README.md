@@ -15,19 +15,17 @@ the mobile menu, the booking popup and the cookie notice, with responsive layout
 ## Requirements
 
 - Node.js 20 or newer
-- An [Adobe Fonts](https://fonts.adobe.com/) web project containing **Ambroise François Std** (Regular) and
-  **Sloop Script Three** (Regular), used for the display and script type
-- An internet connection when viewing the page (the two display fonts are served by Adobe Fonts)
+- An internet connection when viewing the page. The display fonts, **Ambroise François Std** and
+  **Sloop Script Three**, are served by the [Adobe Fonts](https://fonts.adobe.com/) web project configured in `.env`.
 
 ## Setup
 
 ```bash
 npm install
-cp .env.example .env
 ```
 
-In `.env`, set `VITE_ADOBE_FONTS_PROJECT` to your Adobe Fonts web project ID. This is the 7-character code in the
-embed URL `https://use.typekit.net/<id>.css`.
+The Adobe Fonts web project ID is already set in `.env` (`VITE_ADOBE_FONTS_PROJECT`). To use a different project,
+change it there or override it in a `.env.local` file (git-ignored).
 
 ## Commands
 

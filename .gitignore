@@ -29,9 +29,8 @@ tmp/
 temp/
 
 # Environment files and credentials
-.env
-.env.*
-!.env.example
+.env.local
+.env.*.local
 *.local
 *.pem
 *.key
